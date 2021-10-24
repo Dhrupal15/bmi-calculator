@@ -1,0 +1,49 @@
+.title {
+  font-size: 72px;
+  background: linear-gradient(to left top, rgb(1, 68, 253), rgb(0, 253, 253));
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.wrapper {
+  margin: auto;
+  padding: 20px;
+  max-width: 50%;
+  .input {
+    padding: 10px;
+    .label {
+      font-size: 30px;
+      padding:0 20px;
+      font-weight: bolder;
+      background: linear-gradient(
+        to left top,
+        rgb(25, 0, 255),
+        rgb(0, 253, 253)
+      );
+      background-clip: border-box;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .textfield {
+      border-radius: 20px;
+      border: none;
+      padding: 20px;
+      color: black;
+      &::placeholder {
+        color: black;
+      }
+    }
+    button {
+      width: 20vw;
+      font-size: 20px;
+      padding: 10px 20px;
+      border-radius: 20px;
+      border: none;
+      background: linear-gradient(
+        to left top,
+        rgb(1, 68, 253),
+        rgb(0, 253, 253)
+      );
+    }
+  }
+}
